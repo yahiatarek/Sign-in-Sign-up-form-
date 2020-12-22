@@ -1,0 +1,39 @@
+.inner-part h1 {
+  color: rgb(23, 162, 184);
+  font-size: 2.5rem;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+  background: rgb(36, 53, 63);
+}
+.inner-part input {
+  background-color: rgb(36, 53, 63);
+}
+.inner-part input:focus {
+  background-color: rgb(36, 53, 63);
+  border-color: rgb(23, 162, 184);
+}
+.inner-part p {
+  color: white;
+}
+.inner-part {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.inner-part p a {
+  color: white;
+}
+.alert,
+.alert2,
+.alertNoPassword,
+.alertNoEmail {
+  color: red;
+  display: none;
+  justify-content: center;
+}
+.done {
+  color: rgb(23, 162, 184);
+  display: none;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+/* ====================login page end================ */

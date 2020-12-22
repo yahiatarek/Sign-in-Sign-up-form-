@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <title>login Form</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main row justify-content-center h-100">
+      <div class="col-md-7 mt-5">
+        <div class="h-70 py-3 p-5 text-center inner-part">
+          <h1 class="form-group">Smart Login System</h1>
+          <input
+            id="nameInput"
+            class="form-control form-group"
+            type="text"
+            placeholder="Enter your name"
+          />
+          <input
+            id="emailInput"
+            type="email"
+            class="form-control form-group mb-4"
+            placeholder="Enter your EMAIL"
+          />
+          <input
+            id="passwordInput"
+            type="password"
+            class="form-control form-group mb-4"
+            placeholder="Enter your password"
+          />
+          <div class="alert" id="alertRequired">All Inputs required</div>
+          <div class="alert2" id="alertRequired2">Email already exists</div>
+          <div class="done" id="doneDiv">
+            Congrat's you were registered.Please go to the login page and enter
+            you info
+          </div>
+          <button
+            id="signUpButton"
+            class="form-control btn btn-outline-info form-group"
+          >
+            Sign Up
+          </button>
+          <p>
+            Don’t have an account?<a href="login_form_index.html"> Sign In</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="js/signUp.js"></script>
+  </body>
+</html>
